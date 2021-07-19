@@ -4,12 +4,20 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar.js";
 import About from "./components/About.js";
+import Examples from "./components/Examples.js";
+import Footer from "./components/Footer.js";
 
 const App = () =>  
 <Fragment>
 <Navbar />
-<div className = "About-container">
+<div className = "About-Container">
 <About />
+</div>
+<div className = "Examples-Container">
+  <Examples />
+</div>
+<div>
+  <Footer />
 </div>
 </Fragment>
     
