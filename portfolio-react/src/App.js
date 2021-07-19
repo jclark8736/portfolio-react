@@ -6,9 +6,10 @@ import Navbar from "./components/Navbar.js";
 import About from "./components/About.js";
 import Examples from "./components/Examples.js";
 import Footer from "./components/Footer.js";
+import Homepage from "./components/Homepage";
 
-const App = () =>  
-<Fragment>
+const App = () =>  <Homepage />
+{/* <Fragment>
 <Navbar />
 <div className = "About-Container">
 <About />
@@ -20,7 +21,7 @@ const App = () =>
   <Footer />
 </div>
 </Fragment>
-    
+     */}
 
 
     // <div className="App">
